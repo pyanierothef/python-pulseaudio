@@ -6,7 +6,7 @@ from ctypes import *
 
 _libraries = {}
 _libraries['libpulse.so.0'] = CDLL('libpulse.so.0')
-STRING = c_wchar_p
+STRING = c_char_p
 
 
 PA_CHANNEL_MAP_DEF_MAX = 5
